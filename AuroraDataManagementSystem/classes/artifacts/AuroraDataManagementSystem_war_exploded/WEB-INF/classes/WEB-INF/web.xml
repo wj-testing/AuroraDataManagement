@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>helloapp</display-name>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>showkeogramServlet</servlet-name>
+  	<servlet-class>aurora.showkeogramServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>showkeogramServlet</servlet-name>
+  	<url-pattern>/showkeogramServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>showImgServlet</servlet-name>
+  	<servlet-class>aurora.showImgServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>showImgServlet</servlet-name>
+  	<url-pattern>/showImgServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>showServlet</servlet-name>
+  	<servlet-class>aurora.showServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>showServlet</servlet-name>
+  	<url-pattern>/showServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>import</servlet-name>
+  	<servlet-class>aurora.ImportServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>import</servlet-name>
+  	<url-pattern>/import</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>timequery</servlet-name>
+  	<servlet-class>aurora.TimeQueryServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>timequery</servlet-name>
+  	<url-pattern>/timequery</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>similarquery</servlet-name>
+  	<servlet-class>aurora.SimilarQueryServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>similarquery</servlet-name>
+  	<url-pattern>/similarquery</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>labelquery</servlet-name>
+  	<servlet-class>aurora.LabelQueryServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>labelquery</servlet-name>
+  	<url-pattern>/labelquery</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>label</servlet-name>
+  	<servlet-class>aurora.LabelServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>label</servlet-name>
+  	<url-pattern>/label</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>picquery</servlet-name>
+  	<servlet-class>aurora.PicQueryServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>picquery</servlet-name>
+  	<url-pattern>/picquery</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>initial</servlet-name>
+  	<servlet-class>aurora.InitialServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>initial</servlet-name>
+  	<url-pattern>/initial</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>extraction</servlet-name>
+  	<servlet-class>aurora.ExtractionServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>extraction</servlet-name>
+  	<url-pattern>/extraction</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>classify</servlet-name>
+  	<servlet-class>aurora.ClassifyServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>classify</servlet-name>
+  	<url-pattern>/classify</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>result</servlet-name>
+  	<servlet-class>aurora.ResultServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>result</servlet-name>
+  	<url-pattern>/result</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>analysis</servlet-name>
+  	<servlet-class>aurora.AnalysisServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>analysis</servlet-name>
+  	<url-pattern>/analysis</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>queryMarkServlet</servlet-name>
+    <!-- 所在的包 --> 
+    <servlet-class>aurora.queryMarkServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>queryMarkServlet</servlet-name>
+    <!-- 访问的网址 --> 
+    <url-pattern>/queryMarkServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>markshowServlet</servlet-name>
+    <!-- 所在的包 --> 
+    <servlet-class>aurora.markshowServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>markshowServlet</servlet-name>
+    <!-- 访问的网址 --> 
+    <url-pattern>/markshowServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>markServlet</servlet-name>
+    <!-- 所在的包 --> 
+    <servlet-class>aurora.markServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>markServlet</servlet-name>
+    <!-- 访问的网址 --> 
+    <url-pattern>/markServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
