@@ -41,7 +41,7 @@ public class showImgServlet extends HttpServlet {
 		String gband = (String) request.getParameter("Gband");
 		String vband = (String) request.getParameter("Vband");
 		String rband = (String) request.getParameter("Rband");
-		
+		System.out.println(start+end+gband+vband+rband);
 		if(gband!=null&&gband.equals("on"))
 		{
 			band1.add("G");
@@ -106,36 +106,46 @@ public class showImgServlet extends HttpServlet {
         List<DBObject> meta;
         try {
 			meta = queryPic.getMetaList(start, end, qband, qtype);
-			List<String> name = queryPic.getName(meta);
-			List<String> band = queryPic.getBand(meta);
-			List<String> type = queryPic.getType(meta);
-			List<String> time = queryPic.getTime(meta);
-			List<DBObject> imagelist = queryPic.getImageList(name);
-			List<DBObject> keogramlist = queryPic.getKeogramList(name);
-			byte[][] image = queryPic.getImage(imagelist);
-			BufferedImage keogramList = queryPic.getKeogram(keogramlist);
-			ByteArrayOutputStream keo=new ByteArrayOutputStream();
-			ImageIO.write(keogramList, "jpg",keo);
-			byte[] keogrambyte = keo.toByteArray();
-			System.out.println(Arrays.toString(keogrambyte));
-			int n = name.size();
-			List<String> title = new ArrayList();
-			for(int i =0;i<n;i++){
-				String timei = time.get(i);
-				  String time1 = timei.substring(0, 4)+"-"+timei.substring(4, 6)+"-"+timei.substring(6, 8)+" "+timei.substring(8, 10)
-			    	 +":"+timei.substring(10, 12)+":"+timei.substring(12, 14);
-				  title.add(time1 + "      " + type.get(i));
-				  System.out.println(title.get(i));
+			if(meta.isEmpty())
+				{System.out.println("没有搜索到匹配的数据");
+					request.getSession().setAttribute("name", new ArrayList());
+					request.getSession().setAttribute("title", new ArrayList());
+					ServletContext context = getServletContext();
+					RequestDispatcher dispatcher = context.getRequestDispatcher("/index.jsp");
+					dispatcher.forward(request, response);
+				}
+			else {
+				System.out.println("meta:" + meta);
+				List<String> name = queryPic.getName(meta);
+				List<String> band = queryPic.getBand(meta);
+				List<String> type = queryPic.getType(meta);
+				List<String> time = queryPic.getTime(meta);
+				List<DBObject> imagelist = queryPic.getImageList(name);
+				List<DBObject> keogramlist = queryPic.getKeogramList(name);
+				byte[][] image = queryPic.getImage(imagelist);
+				BufferedImage keogramList = queryPic.getKeogram(keogramlist);
+				ByteArrayOutputStream keo = new ByteArrayOutputStream();
+				ImageIO.write(keogramList, "jpg", keo);
+				byte[] keogrambyte = keo.toByteArray();
+				System.out.println(Arrays.toString(keogrambyte));
+				int n = name.size();
+				List<String> title = new ArrayList();
+				for (int i = 0; i < n; i++) {
+					String timei = time.get(i);
+					String time1 = timei.substring(0, 4) + "-" + timei.substring(4, 6) + "-" + timei.substring(6, 8) + " " + timei.substring(8, 10)
+							+ ":" + timei.substring(10, 12) + ":" + timei.substring(12, 14);
+					title.add(time1 + "      " + type.get(i));
+					System.out.println(title.get(i));
+				}
+
+				request.getSession().setAttribute("name", name);
+				request.getSession().setAttribute("title", title);
+				request.getSession().setAttribute("image", image);
+				request.getSession().setAttribute("keogram", keogrambyte);
+				ServletContext context = getServletContext();
+				RequestDispatcher dispatcher = context.getRequestDispatcher("/index.jsp");
+				dispatcher.forward(request, response);
 			}
-			
-			request.getSession().setAttribute("name",name);
-			request.getSession().setAttribute("title",title);
-			request.getSession().setAttribute("image",image);
-			request.getSession().setAttribute("keogram",keogrambyte);
-			ServletContext context = getServletContext();
-			RequestDispatcher dispatcher = context.getRequestDispatcher("/index.jsp");
-			dispatcher.forward(request, response);
-			  
 			 
 		} catch (MongoException e) {
 			// TODO Auto-generated catch block

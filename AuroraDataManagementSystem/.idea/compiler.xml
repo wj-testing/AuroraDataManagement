@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AuroraDataManagementSystem" target="8" />
+      <module name="AuroraDataManagementSystem" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
