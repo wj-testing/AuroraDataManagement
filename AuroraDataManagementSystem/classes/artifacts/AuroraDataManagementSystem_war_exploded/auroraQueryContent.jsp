@@ -110,9 +110,7 @@
            transition: 'fade',
         });
   }); 
-</script>	
-</script>	
-
+</script>
 <div class="g_12">
 	<div class="widget_header">
 		<h4 class="widget_header_title wwIcon i_16_forms">²éÑ¯½á¹û</h4>

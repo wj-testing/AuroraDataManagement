@@ -10,13 +10,13 @@
 	<div class="g_3"><span class="label">开始时间</span></div>
 	<div class="g_9">
 		<!--<input class="simple_field" type="text" name="startTime"/>-->
-		<input class="laydate-icon" onclick="laydate()" name="starttime">
+		<input class="laydate-icon" onclick="laydate()" name="starttime" id="starttime">
 	</div>
 </div>
 <div class="line_grid">
 	<div class="g_3"><span class="label">结束时间</span></div>
 	<div class="g_9">
-		<input class="laydate-icon" onclick="laydate()" name="endtime">
+		<input class="laydate-icon" onclick="laydate()" name="endtime" id="endtime">
 	</div>
 </div>
 <div class="line_grid">
