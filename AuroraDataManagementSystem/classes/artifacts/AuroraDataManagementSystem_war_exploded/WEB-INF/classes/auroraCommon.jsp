@@ -59,7 +59,7 @@
 	<script src="Javascript/jquery.datetimepicker.js"></script>
 	
 	<script>
-   		$('#datetimepicker').datetimepicker();
+   		$('#datetimepicker').datetimepicker({lang:'ch'});
 	</script>
 	
 	
