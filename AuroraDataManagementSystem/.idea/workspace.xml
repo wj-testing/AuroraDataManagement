@@ -7,54 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a48fccab-0601-481d-b376-d1c896d57674" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/auroraLabelContent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/auroraLabelContent.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/AnalysisServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/AnalysisServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ClassifyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ClassifyServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ExtractionServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ExtractionServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ImageFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ImageFeature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ImageFeatureExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ImageFeatureExtractor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ImageHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ImageHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ImageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ImageUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ImportServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ImportServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/InitialServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/InitialServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/KDTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/KDTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/KDTreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/KDTreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/KNN.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/KNN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/KNNNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/KNNNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/LabelQueryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/LabelQueryServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/LabelServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/LabelServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/PicQueryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/PicQueryServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ResultServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ResultServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/SIFT.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/SIFT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ScoreImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/ScoreImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/SimilarImageSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/SimilarImageSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/SimilarQueryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/SimilarQueryServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/TimeQueryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/TimeQueryServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/markServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/markServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/markshowServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/markshowServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/queryMarkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/queryMarkServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/queryPic.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/queryPic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/queryPicToMark.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/queryPicToMark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/showImgServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/showImgServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/showServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/showServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/showkeogramServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/showkeogramServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/trainset.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/aurora/trainset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/auroraLabelContent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/WEB-INF/classes/auroraLabelContent.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/auroraLabelContent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/AuroraDataManagementSystem_war_exploded/auroraLabelContent.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/ImportServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aurora/ImportServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/SimilarQueryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aurora/SimilarQueryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/TimeQueryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aurora/TimeQueryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/queryPic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aurora/queryPic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/showImgServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aurora/showImgServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/showServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aurora/showServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aurora/ImportServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aurora/ImportServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aurora/SimilarQueryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aurora/SimilarQueryServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aurora/TimeQueryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aurora/TimeQueryServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aurora/queryPic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aurora/queryPic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aurora/showImgServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aurora/showImgServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aurora/showServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aurora/showServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/auroraLabelContent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/auroraLabelContent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meta.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,12 +54,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../All/AuroraDataManagementSystem" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -228,6 +181,7 @@
       <updated>1576892570355</updated>
       <workItem from="1576892577843" duration="1713000" />
       <workItem from="1576894483533" duration="1423000" />
+      <workItem from="1577260809486" duration="210000" />
     </task>
     <servers />
   </component>

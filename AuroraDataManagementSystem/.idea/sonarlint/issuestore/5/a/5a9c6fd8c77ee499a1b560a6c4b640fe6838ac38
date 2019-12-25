@@ -1,0 +1,16 @@
+
+Qsquid:S1161":Add the "@Override" annotation above this method signature(–ó…„
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŒÎ¬Àÿÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(±±ð«þÿÿÿÿ
+<squid:S1989,"%Add a "try/catch" block for "update".(¸ôŠ¶
+bsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(ÄÃš¿
+gsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(ô³Ñåüÿÿÿÿ
+gsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(êÂÖŒþÿÿÿÿ
+bsquid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(§ãŠ—
+gsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(ª„òÜùÿÿÿÿ
+gsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(ê¾¬ˆûÿÿÿÿ
+gsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(‡Ô–¦ûÿÿÿÿ
+bsquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(†´ìÎ
+bsquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(ž•§

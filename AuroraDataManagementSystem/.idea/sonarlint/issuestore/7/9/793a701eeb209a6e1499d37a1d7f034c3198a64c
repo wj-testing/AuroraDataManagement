@@ -1,0 +1,33 @@
+
+[squid:UselessImportCheck"7Remove this unused import 'com.mongodb.MongoException'.(­ÙÏ‹
+csquid:UselessImportCheck":Remove this unused import 'java.net.UnknownHostException'.(Ú·¬˜úÿÿÿÿ
+Qsquid:S1161":Add the "@Override" annotation above this method signature(…¯Á
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ÊÌæûÿÿÿÿ
+Bsquid:S1989-"&Add a "try/catch" block for "hasNext".(åÅ™Îıÿÿÿÿ
+:squid:S1989/"#Add a "try/catch" block for "next".(Ñæèú
+T
+squid:S106H"9Replace this use of System.out or System.err by a logger.(«»ê úÿÿÿÿ
+Bsquid:S1989N"&Add a "try/catch" block for "hasNext".(Ë¿ş®ÿÿÿÿÿ
+:squid:S1989P"#Add a "try/catch" block for "next".(Ğ—Ä¨
+Csquid:S1989ƒ"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ
+Csquid:S1989ƒ"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ
+>squid:S1481;"'Remove this unused "ff" local variable.(ÅÉç
+=squid:S1481:"&Remove this unused "j" local variable.(èê»
+Bsquid:S14815"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ
+Bsquid:S1481P"+Remove this unused "subdbo" local variable.(Ğ—Ä¨
+?squid:S1481"(Remove this unused "seq" local variable.(°ÎñÍ
+Jsquid:S1481".Remove this unused "algorithm" local variable.(ú°şòúÿÿÿÿ
+Esquid:S1481 ".Remove this unused "parameter" local variable.(ğÑŠÖ
+Hsquid:S1481&",Remove this unused "metadbc" local variable.(¼ÏêŠşÿÿÿÿ
+gsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(Î›ãûÿÿÿÿ
+bsquid:CommentedOutCodeLineU"<This block of commented-out lines of code should be removed.(µš‰ï
+gsquid:CommentedOutCodeLine\"<This block of commented-out lines of code should be removed.(ÕõşÈùÿÿÿÿ
+bsquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(•¸„©
+gsquid:CommentedOutCodeLineb"<This block of commented-out lines of code should be removed.(¥Åñ“ıÿÿÿÿ
+gsquid:CommentedOutCodeLinef"<This block of commented-out lines of code should be removed.(ß„¬¡ıÿÿÿÿ
+gsquid:CommentedOutCodeLinem"<This block of commented-out lines of code should be removed.(¸‡ŒÈÿÿÿÿÿ
+bsquid:CommentedOutCodeLineq"<This block of commented-out lines of code should be removed.(úÆÜ‰
+asquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(»†ùC
+bsquid:CommentedOutCodeLiney"<This block of commented-out lines of code should be removed.(‘ÆÕ¡
+gsquid:CommentedOutCodeLine{"<This block of commented-out lines of code should be removed.(ŒŠá½úÿÿÿÿ

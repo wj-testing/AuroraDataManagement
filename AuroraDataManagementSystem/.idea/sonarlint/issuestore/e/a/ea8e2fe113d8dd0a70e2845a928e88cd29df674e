@@ -1,0 +1,46 @@
+
+bsquid:S1192c"KDefine a constant instead of duplicating this literal "manualtype" 4 times.(‹ÁÚÏ
+^squid:S1192;"GDefine a constant instead of duplicating this literal "aurora" 3 times.(ëåß
+ssquid:S1488P"\Immediately return this expression instead of assigning it to the temporary variable "picc".(Ë·Õ’
+tsquid:S1488…"\Immediately return this expression instead of assigning it to the temporary variable "picc".(Ë·Õ’
+esquid:S00101 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¨–·°
+Tsquid:UselessImportCheck"+Remove this unused import 'java.awt.Color'.(ùÈãÈøÿÿÿÿ
+Vsquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+]squid:UselessImportCheck":Remove this unused import 'java.io.ByteArrayOutputStream'.(Î‡È
+bsquid:UselessImportCheck"9Remove this unused import 'java.awt.image.BufferedImage'.(×íĞ‡şÿÿÿÿ
+Msquid:UselessImportCheck	")Remove this unused import 'java.io.File'.(†Ğ¥Å
+]squid:UselessImportCheck"4Remove this unused import 'com.mongodb.WriteResult'.(¡ˆ§÷ıÿÿÿÿ
+bsquid:UselessImportCheck"9Remove this unused import 'java.io.ByteArrayInputStream'.(Ëôæ±ûÿÿÿÿ
+Ysquid:UselessImportCheck"0Remove this unused import 'java.awt.Graphics2D'.(­¨ú¸üÿÿÿÿ
+Vsquid:UselessImportCheck"2Remove this unused import 'javax.imageio.ImageIO'.(‘çÔû
+Tsquid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(¹»º
+–%squid:RedundantThrowsDeclarationCheck!"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(Öñ×Æ
+Osquid:S1197!"8Move the array designator from the variable to the type.(Öñ×Æ
+T
+squid:S1063"9Replace this use of System.out or System.err by a logger.(Ÿìû‚øÿÿÿÿ
+–%squid:RedundantThrowsDeclarationCheck9"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(¡è¥
+¢%squid:RedundantThrowsDeclarationCheck9"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(¡è¥
+psquid:S3012D"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(õ¬Šİ
+Gsquid:S1905N"+Remove this unnecessary cast to "DBCursor".(×şŒşÿÿÿÿ
+›%squid:RedundantThrowsDeclarationCheckU"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(éø‰èıÿÿÿÿ
+isquid:S2441l"MMake "List" and its parameters serializable or don't store it in the session.(˜¡Øâÿÿÿÿÿ
+•%squid:RedundantThrowsDeclarationCheckt"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(¿ú
+¡%squid:RedundantThrowsDeclarationCheckt"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(¿ú
+¨%squid:RedundantThrowsDeclarationCheck‰"vRemove the declaration of thrown exception 'java.net.UnknownHostException', as it cannot be thrown from method's body.(øó·
+—%squid:RedundantThrowsDeclarationCheck‰"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(øó·
+£%squid:RedundantThrowsDeclarationCheck‰"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(øó·
+­%squid:RedundantThrowsDeclarationCheck”"vRemove the declaration of thrown exception 'java.net.UnknownHostException', as it cannot be thrown from method's body.(©úÛúÿÿÿÿÿ
+œ%squid:RedundantThrowsDeclarationCheck”"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(©úÛúÿÿÿÿÿ
+­%squid:RedundantThrowsDeclarationCheckŸ"vRemove the declaration of thrown exception 'java.net.UnknownHostException', as it cannot be thrown from method's body.(—¶³šıÿÿÿÿ
+œ%squid:RedundantThrowsDeclarationCheckŸ"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(—¶³šıÿÿÿÿ
+­%squid:RedundantThrowsDeclarationCheck©"vRemove the declaration of thrown exception 'java.net.UnknownHostException', as it cannot be thrown from method's body.(Ú»¸Áıÿÿÿÿ
+œ%squid:RedundantThrowsDeclarationCheck©"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(Ú»¸Áıÿÿÿÿ
+Esquid:S1481*")Remove this unused "band" local variable.(Ûü¯•ÿÿÿÿÿ
+Esquid:S1481+")Remove this unused "type" local variable.(ŸëÔ–ÿÿÿÿÿ
+Fsquid:S1481."*Remove this unused "image" local variable.(¾’–†şÿÿÿÿ
+Bsquid:S1481/"&Remove this unused "n" local variable.(è¯ˆíÿÿÿÿÿ
+Asquid:S14810"*Remove this unused "index" local variable.(—šò
+Gsquid:S1481V"+Remove this unused "ismark" local variable.(û‡—„ùÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯ŒÅ
+asquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(Üµ
+gsquid:CommentedOutCodeLinem"<This block of commented-out lines of code should be removed.(ÅÉ×üÿÿÿÿ

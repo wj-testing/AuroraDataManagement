@@ -1,0 +1,11 @@
+
+Qsquid:S1191"5Use classes from the Java API instead of Sun classes.(ö¤•Ûúÿÿÿÿ
+Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+Qsquid:S1161":Add the "@Override" annotation above this method signature(Â°Äõ
+Jsquid:S1989".Add a "try/catch" block for "getOutputStream".(¦¿ì²ûÿÿÿÿ
+:squid:S1989."#Add a "try/catch" block for "next".(¥…Ó™
+:squid:S19892"#Add a "try/catch" block for "read".(Ò§ƒ
+;squid:S19896"$Add a "try/catch" block for "close".(„¸Ç§
+gsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(´ˆ«âûÿÿÿÿ
+asquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(Â·èI

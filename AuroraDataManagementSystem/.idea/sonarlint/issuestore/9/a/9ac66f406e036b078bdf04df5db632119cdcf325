@@ -1,0 +1,16 @@
+
+wsquid:S14886"`Immediately return this expression instead of assigning it to the temporary variable "category".(²®öª
+Ssquid:UselessImportCheck
+"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ
+Wsquid:UselessImportCheck".Remove this unused import 'com.mongodb.Mongo'.(…­¶£ÿÿÿÿÿ
+Zsquid:UselessImportCheck"6Remove this unused import 'com.mongodb.BasicDBObject'.(ö¿àÑ
+^squid:UselessImportCheck"5Remove this unused import 'com.mongodb.DBCollection'.(´¹ˆüÿÿÿÿ
+Usquid:UselessImportCheck"1Remove this unused import 'com.mongodb.DBObject'.(‡ÿå´
+Osquid:UselessImportCheck"+Remove this unused import 'com.mongodb.DB'.(ßÂŒ“
+@squid:S1148«"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+®%squid:RedundantThrowsDeclarationCheckL"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(À…ıóşÿÿÿÿ
+Xsquid:S1075N"ARefactor your code to get this URI from a customizable parameter.(íÚ®
+O
+squid:S106U"9Replace this use of System.out or System.err by a logger.(‹Ğ–¾
+Osquid:S1135ª"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1481¤"1Remove this unused "siftchangeto" local variable.(®®ÏÆøÿÿÿÿ

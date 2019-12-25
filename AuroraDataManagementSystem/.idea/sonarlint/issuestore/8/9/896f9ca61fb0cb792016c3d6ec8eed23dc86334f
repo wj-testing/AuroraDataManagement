@@ -1,0 +1,58 @@
+
+csquid:CommentedOutCodeLine¶"<This block of commented-out lines of code should be removed.(²¤«ƒ
+›%squid:RedundantThrowsDeclarationCheckb"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(—¶³šýÿÿÿÿ
+hsquid:CommentedOutCodeLineæ"<This block of commented-out lines of code should be removed.(×Ÿ²ÿûÿÿÿÿ
+›%squid:RedundantThrowsDeclarationCheckv"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(ÝòœŠþÿÿÿÿ
+hsquid:CommentedOutCodeLine§"<This block of commented-out lines of code should be removed.(ÔÞµùúÿÿÿÿ
+Gsquid:S19050"+Remove this unnecessary cast to "DBCursor".(×þžŒþÿÿÿÿ
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(²­ÿïûÿÿÿÿ
+¾%squid:RedundantThrowsDeclarationCheck7"Remove the declaration of thrown exception 'com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException' which is a runtime exception.(ž¿ú
+hsquid:CommentedOutCodeLineê"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+Å%squid:RedundantThrowsDeclarationCheckñ"Remove the declaration of thrown exception 'com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException' which is a runtime exception.(ìµ Àüÿÿÿÿ
+hsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(¨®¼ëüÿÿÿÿ
+¬%squid:RedundantThrowsDeclarationCheckl"vRemove the declaration of thrown exception 'java.net.UnknownHostException', as it cannot be thrown from method's body.(Ú»¸Áýÿÿÿÿ
+jsquid:S00117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¥×Í
+>squid:S1481õ"&Remove this unused "n" local variable.(»Ž·Ô
+csquid:CommentedOutCodeLine£"<This block of commented-out lines of code should be removed.(àìÈÌ
+Psquid:S1197ö"8Move the array designator from the variable to the type.(™¥×Í
+–%squid:RedundantThrowsDeclarationCheckL"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(øó·
+Csquid:S1481Š"&Remove this unused "x" local variable.(õÌ¨’üÿÿÿÿ
+usquid:S3012""YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(¿è¼Žúÿÿÿÿ
+¬%squid:RedundantThrowsDeclarationCheckv"vRemove the declaration of thrown exception 'java.net.UnknownHostException', as it cannot be thrown from method's body.(ÝòœŠþÿÿÿÿ
+osquid:S3776ñ"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ìµ Àüÿÿÿÿ
+Ksquid:S1191"5Use classes from the Java API instead of Sun classes.(ø²Ïo
+7squid:S1659õ"Declare "m" on a separate line.(»Ž·Ô
+hsquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(®—ß¾øÿÿÿÿ
+ssquid:S1488H"\Immediately return this expression instead of assigning it to the temporary variable "picc".(Ë·Õ’
+psquid:S3012*"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(õ¬ŠÝ
+csquid:CommentedOutCodeLine“"<This block of commented-out lines of code should be removed.(¢¤º¼
+hsquid:CommentedOutCodeLineû"<This block of commented-out lines of code should be removed.(ú˜õúÿÿÿÿ
+7squid:S1659õ"Declare "n" on a separate line.(»Ž·Ô
+hsquid:CommentedOutCodeLineÈ"<This block of commented-out lines of code should be removed.(õºµ‚þÿÿÿÿ
+ssquid:S14882"\Immediately return this expression instead of assigning it to the temporary variable "picc".(Ë·Õ’
+>squid:S1481õ"&Remove this unused "m" local variable.(»Ž·Ô
+›%squid:RedundantThrowsDeclarationCheckW"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(©úÛúÿÿÿÿÿ
+csquid:CommentedOutCodeLineÂ"<This block of commented-out lines of code should be removed.(øÄ¬ó
+§%squid:RedundantThrowsDeclarationCheckL"vRemove the declaration of thrown exception 'java.net.UnknownHostException', as it cannot be thrown from method's body.(øó·
+hsquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(ÕãÕ‰üÿÿÿÿ
+hsquid:CommentedOutCodeLineî"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+•%squid:RedundantThrowsDeclarationCheck7"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(ž¿ú
+csquid:CommentedOutCodeLineŸ"<This block of commented-out lines of code should be removed.(ƒÿ™š
+hsquid:CommentedOutCodeLine»"<This block of commented-out lines of code should be removed.(¨íùÖüÿÿÿÿ
+csquid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(êêÄì
+¿%squid:RedundantThrowsDeclarationCheckL"Remove the declaration of thrown exception 'com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException' which is a runtime exception.(øó·
+¬%squid:RedundantThrowsDeclarationCheckW"vRemove the declaration of thrown exception 'java.net.UnknownHostException', as it cannot be thrown from method's body.(©úÛúÿÿÿÿÿ
+jsquid:S00117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ž·Ô
+Psquid:S1197÷"8Move the array designator from the variable to the type.(Ä¥Ó²
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(²­ÿïûÿÿÿÿ
+Ä%squid:RedundantThrowsDeclarationCheck"Remove the declaration of thrown exception 'com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException' which is a runtime exception.(»‡ôùÿÿÿÿ
+œ%squid:RedundantThrowsDeclarationCheckñ"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(ìµ Àüÿÿÿÿ
+›%squid:RedundantThrowsDeclarationCheckl"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(Ú»¸Áýÿÿÿÿ
+›%squid:RedundantThrowsDeclarationCheck"eRemove the declaration of thrown exception 'com.mongodb.MongoException' which is a runtime exception.(»‡ôùÿÿÿÿ
+hsquid:CommentedOutCodeLine‚"<This block of commented-out lines of code should be removed.(§¤‹„üÿÿÿÿ
+csquid:CommentedOutCodeLineŽ"<This block of commented-out lines of code should be removed.(¸…ñÛ
+hsquid:CommentedOutCodeLine¿"<This block of commented-out lines of code should be removed.(©¨ÄŠüÿÿÿÿ
+¬%squid:RedundantThrowsDeclarationCheckb"vRemove the declaration of thrown exception 'java.net.UnknownHostException', as it cannot be thrown from method's body.(—¶³šýÿÿÿÿ
+jsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†‹š½
+­%squid:RedundantThrowsDeclarationCheckñ"vRemove the declaration of thrown exception 'java.net.UnknownHostException', as it cannot be thrown from method's body.(ìµ Àüÿÿÿÿ
+hsquid:CommentedOutCodeLine¡"<This block of commented-out lines of code should be removed.(õÓ ­øÿÿÿÿ
