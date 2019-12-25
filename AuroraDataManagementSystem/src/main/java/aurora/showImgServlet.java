@@ -19,6 +19,7 @@ import com.mongodb.DBObject;
 import com.mongodb.MongoException;
 import com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException;
 
+//¸ÄºÃµÄ
 public class showImgServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -121,7 +122,8 @@ public class showImgServlet extends HttpServlet {
 				List<String> type = queryPic.getType(meta);
 				List<String> time = queryPic.getTime(meta);
 				List<DBObject> imagelist = queryPic.getImageList(name);
-				List<DBObject> keogramlist = queryPic.getKeogramList(name);
+//				List<DBObject> keogramlist = queryPic.getKeogramList(name);
+				List<ArrayList> keogramlist = queryPic.getKeogramList(meta);
 				byte[][] image = queryPic.getImage(imagelist);
 				BufferedImage keogramList = queryPic.getKeogram(keogramlist);
 				ByteArrayOutputStream keo = new ByteArrayOutputStream();
