@@ -1,0 +1,49 @@
+#progressBar{
+	width: 80%;
+	height: 50px;
+	position: relative;
+	margin: 50px 0 0 160px;
+}
+#progressBar div{
+	width: 75%;
+	height: 10px;
+	position: absolute;
+	top:50%;
+	left: 0;
+	margin-top:-20px;
+	border:1px solid #ddd;
+	background: #ccc;
+}
+#progressBar div span{
+	position: absolute;
+	display: inline-block;
+	background: green;
+	height: 10px;
+}
+#progressBar>span{
+	position: absolute;
+	top:0;
+	margin-top: -10px;
+	width: 40px;
+	height: 40px;
+	border:2px solid #ddd;
+	background: green;
+	margin-left: -20px;
+	color:#fff;
+	text-align:center;
+}
+#progressBar>span:nth-child(1){
+	left: 0%;
+}
+#progressBar>span:nth-child(2){
+	left: 25%;
+	background:#ccc;
+}
+#progressBar>span:nth-child(3){
+	left: 50%;
+	background:#ccc;
+}
+#progressBar>span:nth-child(4){
+	left: 75%;
+	background:#ccc;
+}

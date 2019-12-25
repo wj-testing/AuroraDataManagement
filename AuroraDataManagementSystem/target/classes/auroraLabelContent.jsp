@@ -60,7 +60,7 @@ function settypeFun(){
         url: "markServlet",
         data: $('#settype').serialize(),
         success: function(msg){
-              alert("hello");
+              alert("ÐÞ¸Ä³É¹¦");
         }
     })
     var objects = document.getElementsByTagName("input")
